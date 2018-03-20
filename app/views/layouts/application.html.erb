@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <%= yield(:header)%>
+    <title><%= yield(:title).chop + (yield(:title).empty? ? '' : ' | ') %>Ruby on Rails Tutorial Sample App</title>
     <%= render 'layouts/rails_default' %>
   </head>
 

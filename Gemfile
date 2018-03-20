@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.1.5'
 # Bootstrap
 gem 'bootstrap-sass', '3.3.7'
+# Controller Testing
+gem 'rails-controller-testing'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
